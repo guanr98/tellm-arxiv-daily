@@ -20,6 +20,8 @@ md_readme_path: 'README.md'
 keywords:
     "agent":
         filters: [LLM based agents,Large Language Model based agents,LLM agent]
+    "telellm":
+        filters: ["Large Language Model, Wireless Network, Wireless Intelligence, Wireless Communications"]
     "llm":
         filters: ["Large Language Model"]
 
