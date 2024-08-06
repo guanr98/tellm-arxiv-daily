@@ -19,9 +19,16 @@ md_readme_path: 'README.md'
 
 keywords:
     "agent":
-        filters: [LLM based agents,Large Language Model based agents,LLM agent]
-    "telellm":
-        filters: ["Large Language Model, Wireless Network, Wireless Intelligence, Wireless Communications"]
+        filters: ["LLM based agents", "Large Language Model based agents,LLM agent"]
     "llm":
         filters: ["Large Language Model"]
-
+    "Wireless Network":
+        filters: ["Large Language Model", "Wireless Network"]
+    "Wireless Communications":
+        filters: ["Large Language Model", "Wireless Communications"]
+    "Wireless Intelligence":
+        filters: ["Large Language Model", "Wireless Intelligence"] 
+    "RAG":
+        filters: ["Large Language Model", "RAG", "Retriever Augment Generation"]
+    "text2sql":
+        filters: ["Large Language Model", "text2sql", "nl2sql"]
