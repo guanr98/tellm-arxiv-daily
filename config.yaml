@@ -32,3 +32,5 @@ keywords:
         filters: ["Large Language Model", "RAG", "Retriever Augment Generation"]
     "text2sql":
         filters: ["Large Language Model", "text2sql", "nl2sql"]
+    "PPC":
+        filters: ["Privacy-Preserving", "Federated Learning"]
