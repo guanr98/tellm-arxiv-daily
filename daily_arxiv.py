@@ -374,8 +374,8 @@ def json_to_md(filename, md_filename,
 
         for keyword in data.keys():
             day_content = data[keyword]
-            if not day_content:
-                continue
+            # if not day_content:
+            #     continue
             # the head of each part
             f.write(f"## {keyword}\n\n")
 
