@@ -7,6 +7,10 @@ import logging
 import argparse
 import datetime
 import requests
+import dashscope
+
+
+dashscope.api_key = os.environ.get("DASHSCOPE_API_KEY")
 
 logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -84,7 +88,36 @@ def get_code_link(qword:str) -> str:
         code_link = results["items"][0]["html_url"]
     return code_link
 
-def get_daily_papers(topic,query="slam", max_results=2):
+prompt_formate = """
+## context
+{context}
+## task
+请你将上述论文摘要翻译为中文，不要输出其他任何无关内容，注意输出的内容中不能包含"|"字符
+"""
+
+
+def llm_generate_summary(prompt):
+
+    msg = prompt_formate.format(context=prompt)
+    from http import HTTPStatus
+
+    response = dashscope.Generation.call(
+        model=dashscope.Generation.Models.qwen_turbo,
+        prompt=msg
+    )
+    # 如果调用成功，则打印模型的输出
+    if response.status_code == HTTPStatus.OK:
+        logging.info(response.output.text)
+        rsp = response.output.text
+    # 如果调用失败，则打印出错误码与失败信息
+    else:
+        logging.error("can not generate response, use old message")
+        logging.error(response.code)
+        logging.error(response.message)
+        rsp = prompt
+
+    return rsp
+def get_daily_papers(topic,query="llm", max_results=2):
     """
     @param topic: str
     @param query: str
@@ -105,7 +138,12 @@ def get_daily_papers(topic,query="slam", max_results=2):
         paper_title         = result.title
         paper_url           = result.entry_id
         code_url            = base_url + paper_id #TODO
+
         paper_abstract      = result.summary.replace("\n"," ")
+        paper_abstract = llm_generate_summary(paper_abstract)
+        paper_abstract = paper_abstract.replace("|", ",")
+        paper_abstract = paper_abstract.replace("\n", " ")
+
         paper_authors       = get_authors(result.authors)
         paper_first_author  = get_authors(result.authors,first_author = True)
         primary_category    = result.primary_category
@@ -135,16 +173,16 @@ def get_daily_papers(topic,query="slam", max_results=2):
             #    if repo_url is None:
             #        repo_url = get_code_link(paper_key)
             if repo_url is not None:
-                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|\n".format(
-                       update_time,paper_title,paper_first_author,paper_key,paper_url,repo_url)
+                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|**{}**|\n".format(
+                       update_time,paper_title,paper_first_author,paper_key,paper_url,repo_url, paper_abstract)
                 content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}), Code: **[{}]({})**".format(
                        update_time,paper_title,paper_first_author,paper_url,paper_url,repo_url,repo_url)
 
             else:
-                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
-                       update_time,paper_title,paper_first_author,paper_key,paper_url)
-                content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
-                       update_time,paper_title,paper_first_author,paper_url,paper_url)
+                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|{}|\n".format(
+                       update_time,paper_title,paper_first_author,paper_key,paper_url, paper_abstract)
+                content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}),{}".format(
+                       update_time,paper_title,paper_first_author,paper_url,paper_url, paper_abstract)
 
             # TODO: select useful comments
             comments = None
@@ -171,8 +209,9 @@ def update_paper_links(filename):
         authors = parts[3].strip()
         arxiv_id = parts[4].strip()
         code = parts[5].strip()
+        paper_abstract = parts[6].strip()
         arxiv_id = re.sub(r'v\d+', '', arxiv_id)
-        return date,title,authors,arxiv_id,code
+        return date,title,authors,arxiv_id,code, paper_abstract
 
     with open(filename,"r") as f:
         content = f.read()
@@ -188,11 +227,11 @@ def update_paper_links(filename):
             for paper_id,contents in v.items():
                 contents = str(contents)
 
-                update_time, paper_title, paper_first_author, paper_url, code_url = parse_arxiv_string(contents)
+                update_time, paper_title, paper_first_author, paper_url, code_url, paper_abstract = parse_arxiv_string(contents)
 
-                contents = "|{}|{}|{}|{}|{}|\n".format(update_time,paper_title,paper_first_author,paper_url,code_url)
+                contents = "|{}|{}|{}|{}|{}|\n".format(update_time,paper_title,paper_first_author,paper_url,code_url, paper_abstract)
                 json_data[keywords][paper_id] = str(contents)
-                logging.info(f'paper_id = {paper_id}, contents = {contents}')
+                logging.info(f'paper_id = {paper_id}, contents = {contents}, paper_abstract = {paper_abstract}')
 
                 valid_link = False if '|null|' in contents else True
                 if valid_link:
@@ -326,10 +365,10 @@ def json_to_md(filename,md_filename,
 
             if use_title == True :
                 if to_web == False:
-                    f.write("|Publish Date|Title|Authors|PDF|Code|\n" + "|---|---|---|---|---|\n")
+                    f.write("|Publish Date|Title|Authors|PDF|Code|Abstract|\n" + "|---|---|---|---|---|\n")
                 else:
                     f.write("| Publish Date | Title | Authors | PDF | Code |\n")
-                    f.write("|:---------|:-----------------------|:---------|:------|:------|\n")
+                    f.write("|:---------|:---------------|:------|:------|:------|:--------------------|\n")
 
             # sort papers by date
             day_content = sort_papers(day_content)
