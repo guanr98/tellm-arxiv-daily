@@ -22,23 +22,23 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords to search
 keywords:
-    "agent":
-        filters: ["LLM based agents", "Large Language Model based agents,LLM agent"]
-    "llm":
-        filters: ["Large Language Model"]
-    "Wireless Network":
-        filters: ["Large Language Model", "Wireless Network"]
-    "Wireless Communications":
-        filters: ["Large Language Model", "Wireless Communications"]
-    "Wireless Intelligence":
-        filters: ["Large Language Model", "Wireless Intelligence"] 
-    "Communication Intelligence":
-        filters: ["Large Language Model", "5G", "6G"]
-    "RAG":
-        filters: ["Large Language Model", "RAG", "Retriever Augment Generation"]
-    "text2sql":
-        filters: ["Large Language Model", "text2sql", "nl2sql"]
-    "AIOps":
-        filters: ["Large Language Model", "AIOps"]
-    "PPC":
-        filters: ["Privacy-Preserving", "Federated Learning"]    
+    'agent':
+        filters: ['LLM based agents', 'Large Language Model based agents', 'LLM agent']
+    'llm':
+        filters: ['Large Language Model']
+    'Wireless Network':
+        filters: [Large Language Model', 'Wireless Network']
+    'Wireless Communications':
+        filters: ['Large Language Model', 'Wireless Communications']
+    'Wireless Intelligence':
+        filters: ['Large Language Model', 'Wireless Intelligence'] 
+    'Communication Intelligence':
+        filters: ['Large Language Model', '5G', '6G']
+    'RAG':
+        filters: ['Large Language Model', 'RAG', 'Retriever Augment Generation']
+    'text2sql':
+        filters: ['Large Language Model', 'text2sql', 'nl2sql']
+    'AIOps':
+        filters: ['Large Language Model', 'AIOps']
+    'PPC':
+        filters: ['Privacy-Preserving', 'Federated Learning']    
