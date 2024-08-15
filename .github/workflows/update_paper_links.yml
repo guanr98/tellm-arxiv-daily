@@ -7,7 +7,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    - cron:  "0 8 * * 1"  #Run At 08:00 on Monday
+    - cron:  "0 6 * * *"  #Run At 08:00 on Monday
   # Triggers the workflow on push or pull request events but only for the main branch
 #   push:
 #     branches:
@@ -15,8 +15,8 @@ on:
 
 env:
 
-  GITHUB_USER_NAME: Vincentqyw
-  GITHUB_USER_EMAIL: realcat@126.com
+  GITHUB_USER_NAME: guanr98
+  GITHUB_USER_EMAIL: guanr98@126.com
   
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -43,6 +43,7 @@ jobs:
           pip install arxiv
           pip install requests
           pip install pyyaml
+          pip install dashscope
           
       - name: Run daily arxiv 
         run: |
@@ -51,7 +52,7 @@ jobs:
       - name: Push new cv-arxiv-daily.md
         uses: github-actions-x/commit@v2.9
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GT_TOKEN }}
           commit-message: "Github Action Automatic Update CV Arxiv Papers"
           files: README.md docs/cv-arxiv-daily.json docs/cv-arxiv-daily-web.json docs/index.md docs/cv-arxiv-daily-wechat.json docs/wechat.md
           rebase: 'true'
