@@ -15,8 +15,8 @@ on:
 
 env:
 
-  GITHUB_USER_NAME: Vincentqyw
-  GITHUB_USER_EMAIL: realcat@126.com
+  GITHUB_USER_NAME: guanr98
+  GITHUB_USER_EMAIL: guanr98@126.com
   
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -35,7 +35,7 @@ jobs:
       - name: Set up Python Env
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.10.12'
           #architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       - name: Install dependencies
         run: |
@@ -43,15 +43,18 @@ jobs:
           pip install arxiv
           pip install requests
           pip install pyyaml
+          pip install dashscope
           
       - name: Run daily arxiv 
         run: |
           python daily_arxiv.py
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.QWEN_API_KEY }}
           
       - name: Push new cv-arxiv-daily.md
         uses: github-actions-x/commit@v2.9
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GT_TOKEN }}
           commit-message: "Github Action Automatic Update CV Arxiv Papers"
           files: README.md docs/cv-arxiv-daily.json docs/cv-arxiv-daily-web.json docs/index.md docs/cv-arxiv-daily-wechat.json docs/wechat.md
           rebase: 'true'
