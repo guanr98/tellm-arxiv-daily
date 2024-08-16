@@ -27,18 +27,18 @@ keywords:
     'llm':
         filters: ['Large Language Model']
     'Wireless Network':
-        filters: [Large Language Model', 'Wireless Network']
+        filters: ['Wireless Network', 'LLM']
     'Wireless Communications':
-        filters: ['Large Language Model', 'Wireless Communications']
+        filters: ['Wireless Communications', 'LLM']
     'Wireless Intelligence':
-        filters: ['Large Language Model', 'Wireless Intelligence'] 
+        filters: ['Wireless Intelligence', 'LLM'] 
     'Communication Intelligence':
-        filters: ['Large Language Model', '5G', '6G']
+        filters: ['5G', '6G', 'LLM']
     'RAG':
-        filters: ['Large Language Model', 'RAG', 'Retriever Augment Generation']
+        filters: ['RAG', 'Retriever Augment Generation', 'LLM']
     'text2sql':
-        filters: ['Large Language Model', 'text2sql', 'nl2sql']
+        filters: ['text2sql', 'nl2sql']
     'AIOps':
-        filters: ['Large Language Model', 'AIOps']
+        filters: ['AIOps']
     'PPC':
         filters: ['Privacy-Preserving', 'Federated Learning']    
