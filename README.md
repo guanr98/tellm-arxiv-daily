@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.09.13
+## Updated on 2024.09.14
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -66,7 +66,7 @@
 |**2024-08-05**|**From LLMs to LLM-based Agents for Software Engineering: A Survey of Current, Challenges and Future**|Haolin Jin et.al.|[2408.02479](http://arxiv.org/abs/2408.02479)|null|
 |**2024-05-16**|**When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models**|Xianzheng Ma et.al.|[2405.10255](http://arxiv.org/abs/2405.10255)|**[link](https://github.com/activevisionlab/awesome-llm-3d)**|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## llm
 
@@ -274,7 +274,7 @@
 |**2024-08-14**|**Large Language Models Know What Makes Exemplary Contexts**|Quanyu Long et.al.|[2408.07505](http://arxiv.org/abs/2408.07505)|null|
 |**2024-05-16**|**When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models**|Xianzheng Ma et.al.|[2405.10255](http://arxiv.org/abs/2405.10255)|**[link](https://github.com/activevisionlab/awesome-llm-3d)**|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## Wireless Network
 
@@ -311,7 +311,7 @@
 |**2024-08-15**|**Usefulness of data flow diagrams and large language models for security threat validation: a registered report**|Winnie Bahati Mbaka et.al.|[2408.07537](http://arxiv.org/abs/2408.07537)|null|
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## Wireless Communications
 
@@ -348,7 +348,7 @@
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 |**2024-08-14**|**Large Language Models Know What Makes Exemplary Contexts**|Quanyu Long et.al.|[2408.07505](http://arxiv.org/abs/2408.07505)|null|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## Wireless Intelligence
 
@@ -385,7 +385,7 @@
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 |**2024-08-14**|**Large Language Models Know What Makes Exemplary Contexts**|Quanyu Long et.al.|[2408.07505](http://arxiv.org/abs/2408.07505)|null|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## Communication Intelligence
 
@@ -436,7 +436,7 @@
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 |**2024-04-02**|**LLM-ABR: Designing Adaptive Bitrate Algorithms via Large Language Models**|Zhiyuan He et.al.|[2404.01617](http://arxiv.org/abs/2404.01617)|null|We present LLM-ABR, the first system that utilizes the generative capabilities of large language models (LLMs) to autonomously design adaptive bitrate (ABR) algorithms tailored for diverse network characteristics. Operating within a reinforcement learning framework, LLM-ABR empowers LLMs to design key components such as states and neural network architectures. We evaluate LLM-ABR across diverse network settings, including broadband, satellite, 4G, and 5G. LLM-ABR consistently outperforms default ABR algorithms.|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## RAG
 
@@ -554,7 +554,7 @@
 |**2024-08-14**|**Usefulness of data flow diagrams and large language models for security threat validation: a registered report**|Winnie Bahati Mbaka et.al.|[2408.07537](http://arxiv.org/abs/2408.07537)|null|
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## text2sql
 
@@ -592,7 +592,7 @@
 |**2024-09-05**|**Aligning Large Language Models to a Domain-specific Graph Database for NL2GQL**|Yuanyuan Liang et.al.|[2402.16567](http://arxiv.org/abs/2402.16567)|null|Graph Databases (Graph DB) find extensive application across diverse domains such as finance, social networks, and medicine. Yet, the translation of Natural Language (NL) into the Graph Query Language (GQL), referred to as NL2GQL, poses significant challenges owing to its intricate and specialized nature. Some approaches have sought to utilize Large Language Models (LLMs) to address analogous tasks like text2SQL. Nonetheless, in the realm of NL2GQL tasks tailored to a particular domain, the absence of domain-specific NL-GQL data pairs adds complexity to aligning LLMs with the graph DB. To tackle this challenge, we present a well-defined pipeline. Initially, we utilize ChatGPT to generate NL-GQL data pairs, leveraging the provided graph DB with self-instruction. Subsequently, we employ the generated data to fine-tune LLMs, ensuring alignment between LLMs and the graph DB. Moreover, we find the importance of relevant schema in efficiently generating accurate GQLs. Thus, we introduce a method to extract relevant schema as the input context. We evaluate our method using two carefully constructed datasets derived from graph DBs in the finance and medicine domains, named FinGQL and MediGQL. Experimental results reveal that our approach significantly outperforms a set of baseline methods, with improvements of 5.90 and 6.36 absolute points on EM, and 6.00 and 7.09 absolute points on EX for FinGQL and MediGQL, respectively.|
 |**2024-08-06**|**Intent-Based Access Control: Using LLMs to Intelligently Manage Access Control**|Pranav Subramaniam et.al.|[2402.07332](http://arxiv.org/abs/2402.07332)|null|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## AIOps
 
@@ -629,7 +629,7 @@
 |**2024-04-12**|**Efficient Interactive LLM Serving with Proxy Model-based Sequence Length Prediction**|Haoran Qiu et.al.|[2404.08509](http://arxiv.org/abs/2404.08509)|**[link](https://github.com/james-qiuhaoran/llm-serving-with-proxy-models)**|
 |**2024-04-01**|**AIOps Solutions for Incident Management: Technical Guidelines and A Comprehensive Literature Review**|Youcef Remil et.al.|[2404.01363](http://arxiv.org/abs/2404.01363)|null|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 ## PPC
 
@@ -754,7 +754,7 @@
 |**2024-08-12**|**Centralized and Federated Heart Disease Classification Models Using UCI Dataset and their Shapley-value Based Interpretability**|Mario Padilla Rodriguez et.al.|[2408.06183](http://arxiv.org/abs/2408.06183)|**[link](https://github.com/padillma1/heart-disease-classification-on-uci-dataset-and-shapley-interpretability-analysis)**|
 |**2024-08-12**|**Understanding Byzantine Robustness in Federated Learning with A Black-box Server**|Fangyuan Zhao et.al.|[2408.06042](http://arxiv.org/abs/2408.06042)|**[link](https://github.com/alibaba/federatedscope)**|
 
-<p align=right>(<a href=#updated-on-20240913>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240914>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
