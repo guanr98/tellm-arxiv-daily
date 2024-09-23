@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.09.22
+## Updated on 2024.09.23
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -78,7 +78,7 @@
 |**2024-08-05**|**From LLMs to LLM-based Agents for Software Engineering: A Survey of Current, Challenges and Future**|Haolin Jin et.al.|[2408.02479](http://arxiv.org/abs/2408.02479)|null|
 |**2024-05-16**|**When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models**|Xianzheng Ma et.al.|[2405.10255](http://arxiv.org/abs/2405.10255)|**[link](https://github.com/activevisionlab/awesome-llm-3d)**|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## llm
 
@@ -326,7 +326,7 @@
 |**2024-08-14**|**Large Language Models Know What Makes Exemplary Contexts**|Quanyu Long et.al.|[2408.07505](http://arxiv.org/abs/2408.07505)|null|
 |**2024-05-16**|**When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models**|Xianzheng Ma et.al.|[2405.10255](http://arxiv.org/abs/2405.10255)|**[link](https://github.com/activevisionlab/awesome-llm-3d)**|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## Wireless Network
 
@@ -363,7 +363,7 @@
 |**2024-08-15**|**Usefulness of data flow diagrams and large language models for security threat validation: a registered report**|Winnie Bahati Mbaka et.al.|[2408.07537](http://arxiv.org/abs/2408.07537)|null|
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## Wireless Communications
 
@@ -400,7 +400,7 @@
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 |**2024-08-14**|**Large Language Models Know What Makes Exemplary Contexts**|Quanyu Long et.al.|[2408.07505](http://arxiv.org/abs/2408.07505)|null|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## Wireless Intelligence
 
@@ -437,7 +437,7 @@
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 |**2024-08-14**|**Large Language Models Know What Makes Exemplary Contexts**|Quanyu Long et.al.|[2408.07505](http://arxiv.org/abs/2408.07505)|null|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## Communication Intelligence
 
@@ -488,7 +488,7 @@
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 |**2024-04-02**|**LLM-ABR: Designing Adaptive Bitrate Algorithms via Large Language Models**|Zhiyuan He et.al.|[2404.01617](http://arxiv.org/abs/2404.01617)|null|We present LLM-ABR, the first system that utilizes the generative capabilities of large language models (LLMs) to autonomously design adaptive bitrate (ABR) algorithms tailored for diverse network characteristics. Operating within a reinforcement learning framework, LLM-ABR empowers LLMs to design key components such as states and neural network architectures. We evaluate LLM-ABR across diverse network settings, including broadband, satellite, 4G, and 5G. LLM-ABR consistently outperforms default ABR algorithms.|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## RAG
 
@@ -625,7 +625,7 @@
 |**2024-08-14**|**Usefulness of data flow diagrams and large language models for security threat validation: a registered report**|Winnie Bahati Mbaka et.al.|[2408.07537](http://arxiv.org/abs/2408.07537)|null|
 |**2024-08-14**|**Development of a Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments**|Seungjun Han et.al.|[2408.07531](http://arxiv.org/abs/2408.07531)|null|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## text2sql
 
@@ -663,7 +663,7 @@
 |**2024-09-05**|**Aligning Large Language Models to a Domain-specific Graph Database for NL2GQL**|Yuanyuan Liang et.al.|[2402.16567](http://arxiv.org/abs/2402.16567)|null|Graph Databases (Graph DB) find extensive application across diverse domains such as finance, social networks, and medicine. Yet, the translation of Natural Language (NL) into the Graph Query Language (GQL), referred to as NL2GQL, poses significant challenges owing to its intricate and specialized nature. Some approaches have sought to utilize Large Language Models (LLMs) to address analogous tasks like text2SQL. Nonetheless, in the realm of NL2GQL tasks tailored to a particular domain, the absence of domain-specific NL-GQL data pairs adds complexity to aligning LLMs with the graph DB. To tackle this challenge, we present a well-defined pipeline. Initially, we utilize ChatGPT to generate NL-GQL data pairs, leveraging the provided graph DB with self-instruction. Subsequently, we employ the generated data to fine-tune LLMs, ensuring alignment between LLMs and the graph DB. Moreover, we find the importance of relevant schema in efficiently generating accurate GQLs. Thus, we introduce a method to extract relevant schema as the input context. We evaluate our method using two carefully constructed datasets derived from graph DBs in the finance and medicine domains, named FinGQL and MediGQL. Experimental results reveal that our approach significantly outperforms a set of baseline methods, with improvements of 5.90 and 6.36 absolute points on EM, and 6.00 and 7.09 absolute points on EX for FinGQL and MediGQL, respectively.|
 |**2024-08-06**|**Intent-Based Access Control: Using LLMs to Intelligently Manage Access Control**|Pranav Subramaniam et.al.|[2402.07332](http://arxiv.org/abs/2402.07332)|null|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## AIOps
 
@@ -700,7 +700,7 @@
 |**2024-04-12**|**Efficient Interactive LLM Serving with Proxy Model-based Sequence Length Prediction**|Haoran Qiu et.al.|[2404.08509](http://arxiv.org/abs/2404.08509)|**[link](https://github.com/james-qiuhaoran/llm-serving-with-proxy-models)**|
 |**2024-04-01**|**AIOps Solutions for Incident Management: Technical Guidelines and A Comprehensive Literature Review**|Youcef Remil et.al.|[2404.01363](http://arxiv.org/abs/2404.01363)|null|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 ## PPC
 
@@ -713,7 +713,7 @@
 |**2024-09-16**|**A Green Multi-Attribute Client Selection for Over-The-Air Federated Learning: A Grey-Wolf-Optimizer Approach**|Maryam Ben Driss et.al.|[2409.11442](http://arxiv.org/abs/2409.11442)|null|Federated Learning (FL) has gained attention across various industries for its capability to train machine learning models without centralizing sensitive data. While this approach offers significant benefits such as privacy preservation and decreased communication overhead, it presents several challenges, including deployment complexity and interoperability issues, particularly in heterogeneous scenarios or resource-constrained environments. Over-the-air (OTA) FL was introduced to tackle these challenges by disseminating model updates without necessitating direct device-to-device connections or centralized servers. However, OTA-FL brought forth limitations associated with heightened energy consumption and network latency. In this paper, we propose a multi-attribute client selection framework employing the grey wolf optimizer (GWO) to strategically control the number of participants in each round and optimize the OTA-FL process while considering accuracy, energy, delay, reliability, and fairness constraints of participating devices. We evaluate the performance of our multi-attribute client selection approach in terms of model loss minimization, convergence time reduction, and energy efficiency. In our experimental evaluation, we assessed and compared the performance of our approach against the existing state-of-the-art methods. Our results demonstrate that the proposed GWO-based client selection outperforms these baselines across various metrics. Specifically, our approach achieves a notable reduction in model loss, accelerates convergence time, and enhances energy efficiency while maintaining high fairness and reliability indicators.|
 |**2024-09-17**|**Federated Learning with Integrated Sensing, Communication, and Computation: Frameworks and Performance Analysis**|Yipeng Liang et.al.|[2409.11240](http://arxiv.org/abs/2409.11240)|null|With the emergence of integrated sensing, communication, and computation (ISCC) in the upcoming 6G era, federated learning with ISCC (FL-ISCC), integrating sample collection, local training, and parameter exchange and aggregation, has garnered increasing interest for enhancing training efficiency. Currently, FL-ISCC primarily includes two algorithms: FedAVG-ISCC and FedSGD-ISCC. However, the theoretical understanding of the performance and advantages of these algorithms remains limited. To address this gap, we investigate a general FL-ISCC framework, implementing both FedAVG-ISCC and FedSGD-ISCC. We experimentally demonstrate the substantial potential of the ISCC framework in reducing latency and energy consumption in FL. Furthermore, we provide a theoretical analysis and comparison. The results reveal that:1) Both sample collection and communication errors negatively impact algorithm performance, highlighting the need for careful design to optimize FL-ISCC applications. 2) FedAVG-ISCC performs better than FedSGD-ISCC under IID data due to its advantage with multiple local updates. 3) FedSGD-ISCC is more robust than FedAVG-ISCC under non-IID data, where the multiple local updates in FedAVG-ISCC worsen performance as non-IID data increases. FedSGD-ISCC maintains performance levels similar to IID conditions. 4) FedSGD-ISCC is more resilient to communication errors than FedAVG-ISCC, which suffers from significant performance degradation as communication errors increase.Extensive simulations confirm the effectiveness of the FL-ISCC framework and validate our theoretical analysis.|
 |**2024-09-16**|**Federated Learning for Smart Grid: A Survey on Applications and Potential Vulnerabilities**|Zikai Zhang et.al.|[2409.10764](http://arxiv.org/abs/2409.10764)|null|The Smart Grid (SG) is a critical energy infrastructure that collects real-time electricity usage data to forecast future energy demands using information and communication technologies (ICT). Due to growing concerns about data security and privacy in SGs, federated learning (FL) has emerged as a promising training framework. FL offers a balance between privacy, efficiency, and accuracy in SGs by enabling collaborative model training without sharing private data from IoT devices. In this survey, we thoroughly review recent advancements in designing FL-based SG systems across three stages: generation, transmission and distribution, and consumption. Additionally, we explore potential vulnerabilities that may arise when implementing FL in these stages. Finally, we discuss the gap between state-of-the-art FL research and its practical applications in SGs and propose future research directions. These focus on potential attack and defense strategies for FL-based SG systems and the need to build a robust FL-based SG infrastructure. Unlike traditional surveys that address security issues in centralized machine learning methods for SG systems, this survey specifically examines the applications and security concerns in FL-based SG systems for the first time. Our aim is to inspire further research into applications and improvements in the robustness of FL-based SG systems.|
-|**2024-09-16**|**TPFL: Tsetlin-Personalized Federated Learning with Confidence-Based Clustering**|Rasoul Jafari Gohari et.al.|[2409.10392](http://arxiv.org/abs/2409.10392)|**[link](https://github.com/russelljeffrey/TPFL_Tsetlin-Personalized-Federated-Learning-with-Confidence-Based-Clustering)**|**The world of Machine Learning (ML) has witnessed rapid changes in terms of new models and ways to process users data. The majority of work that has been done is focused on Deep Learning (DL) based approaches. However, with the emergence of new algorithms such as the Tsetlin Machine (TM) algorithm, there is growing interest in exploring alternative approaches that may offer unique advantages in certain domains or applications. One of these domains is Federated Learning (FL), in which users privacy is of utmost importance. Due to its novelty, FL has seen a surge in the incorporation of personalization techniques to enhance model accuracy while maintaining user privacy under personalized conditions. In this work, we propose a novel approach dubbed TPFL: Tsetlin-Personalized Federated Learning, in which models are grouped into clusters based on their confidence towards a specific class. In this way, clustering can benefit from two key advantages. Firstly, clients share only what they are confident about, resulting in the elimination of wrongful weight aggregation among clients whose data for a specific class may have not been enough during the training. This phenomenon is prevalent when the data are non-Independent and Identically Distributed (non-IID). Secondly, by sharing only weights towards a specific class, communication cost is substantially reduced, making TPLF efficient in terms of both accuracy and communication cost. The results of TPFL demonstrated the highest accuracy on three different datasets; namely MNIST, FashionMNIST and FEMNIST.**|
+|**2024-09-20**|**TPFL: Tsetlin-Personalized Federated Learning with Confidence-Based Clustering**|Rasoul Jafari Gohari et.al.|[2409.10392](http://arxiv.org/abs/2409.10392)|**[link](https://github.com/russelljeffrey/TPFL_Tsetlin-Personalized-Federated-Learning-with-Confidence-Based-Clustering)**|**The world of Machine Learning (ML) has witnessed rapid changes in terms of new models and ways to process users data. The majority of work that has been done is focused on Deep Learning (DL) based approaches. However, with the emergence of new algorithms such as the Tsetlin Machine (TM) algorithm, there is growing interest in exploring alternative approaches that may offer unique advantages in certain domains or applications. One of these domains is Federated Learning (FL), in which users privacy is of utmost importance. Due to its novelty, FL has seen a surge in the incorporation of personalization techniques to enhance model accuracy while maintaining user privacy under personalized conditions. In this work, we propose a novel approach dubbed TPFL: Tsetlin-Personalized Federated Learning, in which models are grouped into clusters based on their confidence towards a specific class. In this way, clustering can benefit from two key advantages. Firstly, clients share only what they are confident about, resulting in the elimination of wrongful weight aggregation among clients whose data for a specific class may have not been enough during the training. This phenomenon is prevalent when the data are non-Independent and Identically Distributed (non-IID). Secondly, by sharing only weights towards a specific class, communication cost is substantially reduced, making TPLF efficient in terms of both accuracy and communication cost. The results of TPFL demonstrated the highest accuracy on three different datasets; namely MNIST, FashionMNIST and FEMNIST.**|
 |**2024-09-15**|**Federated Learning in Adversarial Environments: Testbed Design and Poisoning Resilience in Cybersecurity**|Hao Jian Huang et.al.|[2409.09794](http://arxiv.org/abs/2409.09794)|null|This paper presents the design and implementation of a Federated Learning (FL) testbed, focusing on its application in cybersecurity and evaluating its resilience against poisoning attacks. Federated Learning allows multiple clients to collaboratively train a global model while keeping their data decentralized, addressing critical needs for data privacy and security, particularly in sensitive fields like cybersecurity. Our testbed, built using the Flower framework, facilitates experimentation with various FL frameworks, assessing their performance, scalability, and ease of integration. Through a case study on federated intrusion detection systems, we demonstrate the testbed's capabilities in detecting anomalies and securing critical infrastructure without exposing sensitive network data. Comprehensive poisoning tests, targeting both model and data integrity, evaluate the system's robustness under adversarial conditions. Our results show that while federated learning enhances data privacy and distributed learning, it remains vulnerable to poisoning attacks, which must be mitigated to ensure its reliability in real-world applications.|
 |**2024-09-15**|**From Challenges and Pitfalls to Recommendations and Opportunities: Implementing Federated Learning in Healthcare**|Ming Li et.al.|[2409.09727](http://arxiv.org/abs/2409.09727)|null|Federated learning holds great potential for enabling large-scale healthcare research and collaboration across multiple centres while ensuring data privacy and security are not compromised. Although numerous recent studies suggest or utilize federated learning based methods in healthcare, it remains unclear which ones have potential clinical utility. This review paper considers and analyzes the most recent studies up to May 2024 that describe federated learning based methods in healthcare. After a thorough review, we find that the vast majority are not appropriate for clinical use due to their methodological flaws and/or underlying biases which include but are not limited to privacy concerns, generalization issues, and communication costs. As a result, the effectiveness of federated learning in healthcare is significantly compromised. To overcome these challenges, we provide recommendations and promising opportunities that might be implemented to resolve these problems and improve the quality of model development in federated learning with healthcare.|
 |**2024-09-14**|**Using Synthetic Data to Mitigate Unfairness and Preserve Privacy through Single-Shot Federated Learning**|Chia-Yuan Wu et.al.|[2409.09532](http://arxiv.org/abs/2409.09532)|null|
@@ -841,7 +841,7 @@
 |**2024-08-12**|**Centralized and Federated Heart Disease Classification Models Using UCI Dataset and their Shapley-value Based Interpretability**|Mario Padilla Rodriguez et.al.|[2408.06183](http://arxiv.org/abs/2408.06183)|**[link](https://github.com/padillma1/heart-disease-classification-on-uci-dataset-and-shapley-interpretability-analysis)**|
 |**2024-08-12**|**Understanding Byzantine Robustness in Federated Learning with A Black-box Server**|Fangyuan Zhao et.al.|[2408.06042](http://arxiv.org/abs/2408.06042)|**[link](https://github.com/alibaba/federatedscope)**|
 
-<p align=right>(<a href=#updated-on-20240922>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240923>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
