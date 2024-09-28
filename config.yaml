@@ -26,6 +26,8 @@ keywords:
         filters: ['LLM based agents', 'Large Language Model based agents', 'LLM agent']
     'llm':
         filters: ['Large Language Model, llm']
+    'moe':
+        filters: ['Mixture of experts, MoE']
     'Wireless Network':
         filters: ['Wireless Network, llm']
     'Wireless Communications':
