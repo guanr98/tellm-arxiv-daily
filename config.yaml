@@ -28,6 +28,8 @@ keywords:
         filters: ['Large Language Model, llm']
     'moe':
         filters: ['Mixture of experts, MoE']
+    'SSMs':
+        filters: ['State Space Models, SSMs']
     'Wireless Network':
         filters: ['Wireless Network, llm']
     'Wireless Communications':
