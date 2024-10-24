@@ -30,12 +30,6 @@ keywords:
         filters: ['Mixture of experts, MoE']
     'SSMs':
         filters: ['State Space Models, SSMs']
-    'Wireless Network':
-        filters: ['Wireless Network, llm']
-    'Wireless Communications':
-        filters: ['Wireless Communications, LLM']
-    'Wireless Intelligence':
-        filters: ['Wireless Intelligence, LLM'] 
     'Communication Intelligence':
         filters: ['5G, LLM', '6G, LLM']
     'RAG':
