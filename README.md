@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2025.07.28
+## Updated on 2025.07.29
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -814,7 +814,7 @@
 |**2024-11-02**|**A Large-scale Time-aware Agents Simulation for Influencer Selection in Digital Advertising Campaigns**|Xiaoqing Zhang et.al.|[2411.01143](http://arxiv.org/abs/2411.01143)|null|
 |**2024-05-16**|**When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models**|Xianzheng Ma et.al.|[2405.10255](http://arxiv.org/abs/2405.10255)|**[link](https://github.com/activevisionlab/awesome-llm-3d)**|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## llm
 
@@ -2532,7 +2532,7 @@
 |**2024-11-06**|**Data Fusion of Synthetic Query Variants With Generative Large Language Models**|Timo Breuer et.al.|[2411.03881](http://arxiv.org/abs/2411.03881)|**[link](https://github.com/breuert/sigirap24)**|
 |**2024-05-16**|**When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models**|Xianzheng Ma et.al.|[2405.10255](http://arxiv.org/abs/2405.10255)|**[link](https://github.com/activevisionlab/awesome-llm-3d)**|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## moe
 
@@ -2921,7 +2921,7 @@
 |**2024-11-01**|**MoNTA: Accelerating Mixture-of-Experts Training with Network-Traffc-Aware Parallel Optimization**|Jingming Guo et.al.|[2411.00662](http://arxiv.org/abs/2411.00662)|**[link](https://github.com/enflametechnology/deepspeed)**|
 |**2024-10-31**|**Stereo-Talker: Audio-driven 3D Human Synthesis with Prior-Guided Mixture-of-Experts**|Xiang Deng et.al.|[2410.23836](http://arxiv.org/abs/2410.23836)|null|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## SSMs
 
@@ -3158,7 +3158,7 @@
 |**2024-10-31**|**In-Context Learned Equalization in Cell-Free Massive MIMO via State-Space Models**|Zihang Song et.al.|[2410.23882](http://arxiv.org/abs/2410.23882)|null|
 |**2024-10-28**|**Multi-Agent Reinforcement Learning with Selective State-Space Models**|Jemma Daniel et.al.|[2410.19382](http://arxiv.org/abs/2410.19382)|null|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## Communication Intelligence
 
@@ -3166,7 +3166,7 @@
 |---|---|---|---|---|---|
 |**2024-09-21**|**LLM Agents as 6G Orchestrator: A Paradigm for Task-Oriented Physical-Layer Automation**|Zhuoran Xiao et.al.|[2410.03688](http://arxiv.org/abs/2410.03688)|null|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## RAG
 
@@ -4419,7 +4419,7 @@
 |**2024-11-04**|**Zebra-Llama: A Context-Aware Large Language Model for Democratizing Rare Disease Knowledge**|Karthik Soman et.al.|[2411.02657](http://arxiv.org/abs/2411.02657)|**[link](https://github.com/karthiksoman/zebra-Llama)**|
 |**2024-11-04**|**TeleOracle: Fine-Tuned Retrieval-Augmented Generation with Long-Context Support for Network**|Nouf Alabbasi et.al.|[2411.02617](http://arxiv.org/abs/2411.02617)|**[link](https://github.com/Nouf-Alabbasi/oKUmura_AI_Telecom_challenge)**|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## text2sql
 
@@ -4473,7 +4473,7 @@
 |**2024-05-01**|**ChatBI: Towards Natural Language to Complex Business Intelligence SQL**|Jinqing Lian et.al.|[2405.00527](http://arxiv.org/abs/2405.00527)|null|
 |**2024-03-29**|**PURPLE: Making a Large Language Model a Better SQL Writer**|Tonghui Ren et.al.|[2403.20014](http://arxiv.org/abs/2403.20014)|null|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 ## PPC
 
@@ -5604,7 +5604,7 @@
 |**2024-11-06**|**Domain Generalization for Cross-Receiver Radio Frequency Fingerprint Identification**|Ying Zhang et.al.|[2411.03636](http://arxiv.org/abs/2411.03636)|null|
 |**2024-11-06**|**Towards Personalized Federated Learning via Comprehensive Knowledge Distillation**|Pengju Wang et.al.|[2411.03569](http://arxiv.org/abs/2411.03569)|null|
 
-<p align=right>(<a href=#updated-on-20250728>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250729>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
